@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            Name List
+        </title>
+    </head>
+    <body>
+        <h3>Name list</h3>
+        
+        <table border="1">
+
+            <tr> 
+                <th>Id</th>
+                <th>Name</th>
+                <th>Lastname</th>
+            </tr>
+                {{range .tests}}
+
+                  <tr>
+                    <td>
+                        {{.ID}}
+                    </td>
+                    <td>
+                        {{.Name}}
+                    </td>
+                          
+                    <td>
+                        {{.Lastname}}
+                    </td>
+                          
+                      
+                  </tr>
+
+                {{end}}
+        
+        </table>
+
+    </body>
+</html>
