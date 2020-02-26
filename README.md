@@ -1,6 +1,6 @@
 # ‘ETL’ (Extract, Transform, Load) tool in Go
 
-### Pre-requiremt
+### Pre-requirements
 * [go lang](https://golang.org/doc/) installed
 * [postgres SQL](https://www.postgresql.org/docs/) installed
 
